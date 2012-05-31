@@ -15,6 +15,7 @@ Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
 BuildRequires: gtk-doc
 BuildRequires: intltool
 BuildRequires: mate-conf
+BuildRequires: mate-common
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(libcanberra)
 BuildRequires: pkgconfig(libmatecomponent-2.0)
