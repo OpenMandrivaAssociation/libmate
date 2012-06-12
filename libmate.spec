@@ -6,7 +6,7 @@
 Summary:	MATE libraries
 Name:		libmate
 Version:	1.2.0
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	LGPLv2+
 URL:		http://mate-desktop.org
@@ -23,6 +23,9 @@ BuildRequires: pkgconfig(mateconf-2.0)
 BuildRequires: pkgconfig(mate-vfs-2.0)
 BuildRequires: pkgconfig(popt)
 
+# no canberra-gtk2
+Requires:	canberra-common
+Requires:	libmatecomponent
 Requires:	%{name}-schemas >= %{version}-%{release}
 
 %description
