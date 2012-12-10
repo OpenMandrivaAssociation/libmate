@@ -96,3 +96,18 @@ find %{buildroot} -name '*.la' | xargs rm
 %files schemas
 %{_sysconfdir}/mateconf/schemas/desktop_mate_*.schemas
 
+
+
+%changelog
+* Fri Jul 27 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.4.0-1
++ Revision: 811351
+- new version 1.4.0
+
+* Tue Jun 12 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-2
++ Revision: 805266
+- rebuild adding requires to make MATE work
+
+* Thu May 31 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-1
++ Revision: 801598
+- imported package libmate
+
